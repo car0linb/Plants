@@ -6,9 +6,84 @@ header{
 
 .welcome{
     
-    min-height: 75vh;
+    min-height: 50vh;
     background-image: url(../Images/welcome.webp);
     background-size: cover;
     background-repeat: no-repeat;
     color: wheat;
+}
+
+.intro{
+    min-height: 30vh;
+    background-color: #D1E2C4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin-top: -5%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+
+.button, .btn{
+   background-color: #778a35;
+   border: #778a35;
+   
+}
+
+.button:hover, .btn:hover{
+    background-color: #FAE6D0;
+    color: black;
+    transform: scale(1.1);
+    border: #778a35;
+}
+
+.products{
+    min-height: 100vh;
+    background-image: url(../Images/products.webp);
+    color: #EBEBE8;
+    display: flex;
+}
+
+.products-content, .products_2{
+    max-width: 500px;
+    min-height: 50%;
+    background-color: #778a35;
+    opacity: 0.8;
+    margin: 25px;
+    padding: 25px;
+}
+
+.products-plants{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    
+}
+
+.services{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+
+
+
+.products a {
+    text-decoration: none;
+    color: #EBEBE8;
+
+}
+
+.products a:hover{
+    color: black;
+}
+
+.plants{
+    background-color: #D1E2C4;
 }
