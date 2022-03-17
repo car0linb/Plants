@@ -14,17 +14,24 @@ header{
 }
 
 .intro{
-    min-height: 40vh;
+    min-height: 30vh;
     background-color: #D1E2C4;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 95%;
+    margin-top: -5%;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .button{
    background-color: #778a35;
    border: none;
+}
+
+.button:hover{
+    background-color: #D1E2C4;
 }
 
 .products{
