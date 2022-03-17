@@ -25,13 +25,19 @@ header{
     border-radius: 15px 15px 0px 0px;
 }
 
-.button{
+
+
+.button, .btn{
    background-color: #778a35;
-   border: none;
+   border: #778a35;
+   
 }
 
-.button:hover{
-    background-color: #D1E2C4;
+.button:hover, .btn:hover{
+    background-color: #FAE6D0;
+    color: black;
+    transform: scale(1.1);
+    border: #778a35;
 }
 
 .products{
@@ -43,7 +49,7 @@ header{
 
 .products-content, .products_2{
     max-width: 500px;
-    min-height: 300px;
+    min-height: 50%;
     background-color: #778a35;
     opacity: 0.8;
     margin: 25px;
@@ -66,9 +72,7 @@ header{
 }
 
 
-.product.button{
-    background-color: #D1E2C4;
-}
+
 
 .products a {
     text-decoration: none;
@@ -77,7 +81,7 @@ header{
 }
 
 .products a:hover{
-    color: #F8D3B0;
+    color: black;
 }
 
 .plants{
