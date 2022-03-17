@@ -1,0 +1,14 @@
+header{
+    background-color: #778a35;
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.welcome{
+    
+    min-height: 75vh;
+    background-image: url(../Images/welcome.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: wheat;
+}
