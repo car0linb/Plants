@@ -1,7 +1,18 @@
-header{
+/* header{
     background-color: #778a35;
     color: whitesmoke;
     font-family: 'Josefin Sans', sans-serif;
+} */
+
+.logo {
+    max-width: 50%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: wheat;
 }
 
 .welcome{
@@ -28,6 +39,7 @@ header{
 
 
 .button, .btn{
+   color: white;
    background-color: #778a35;
    border: #778a35;
    
