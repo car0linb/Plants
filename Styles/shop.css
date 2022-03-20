@@ -88,8 +88,11 @@ header{
     background-color: #D1E2C4;
 }
 
-.carousel-item{
-    height: fit-content;
+.carousel{
+    max-height: 100vh;
+    overflow: hidden;
+}
 
-
+.carousel img{
+    object-fit: fill;
 }
