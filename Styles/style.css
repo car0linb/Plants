@@ -1,0 +1,47 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo {
+    max-width: 50%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: wheat;
+}
+
+.button, .btn{
+    color: white;
+    background-color: #778a35;
+    border: #778a35;
+    
+ }
+ 
+ .button:hover, .btn:hover{
+     background-color: #FAE6D0;
+     color: black;
+     transform: scale(1.1);
+     border: #778a35;
+ }
+
+ .start{ 
+    min-height: 70vh;
+    background-image: url(../Images/startpage.jpg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: wheat;     
+}
+
+
+.text-center {
+    padding-top: 10rem;
+    align-items: center;
+}
+
+
+
+    
+
