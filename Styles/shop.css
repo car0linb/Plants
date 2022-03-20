@@ -87,3 +87,12 @@ header{
 .plants{
     background-color: #D1E2C4;
 }
+
+.carousel{
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.carousel img{
+    object-fit: fill;
+}
