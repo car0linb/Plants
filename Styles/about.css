@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#showcase {
+  background: url(https://images.unsplash.com/photo-1646452016075-b83189da144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80);
+}
+
+.chair {
+  height: 600px;
+  width: 400px;
+}
+
+.title-underline {
+  width: 200px;
+  border: 1px solid rgb(224, 222, 134);
+  margin: auto;
+}
+
+h3 {
+  font-family: "Aleo", serif;
+}
+
+h4 {
+  font-family: "Aleo", serif;
+}
+
+.footer-section {
+  background-color: #d1e2c4;
+}
+
+.fa-brands:hover {
+  color: rgb(42, 75, 11) !important;
+}
+
+.nav-link:hover {
+  color: #778a35 !important;
+}
+
+li {
+  font-size: 22px;
+}
+
+.text-footer {
+  font-size: 22px !important;
+  font-weight: bold;
+}
+
+#about-us {
+  background-image: url(/images/blomma6.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.footer-color {
+  background-color: rgb(192, 192, 158);
+}
+
+#footer {
+  background-color: #758250 !important;
+}
+
+.navbar {
+  background-color: rgb(192, 192, 158) !important;
+}
+
+.nav-link {
+  font-weight: 500 !important;
+}
