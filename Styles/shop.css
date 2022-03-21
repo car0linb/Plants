@@ -108,3 +108,28 @@
 .carousel img{
     object-fit: fill;
 }
+
+
+.polaroid{
+    max-width: 400px;
+    padding: 10px 10px 30px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.polaroid_img{
+   width: 300px;
+   height: 300px; 
+   
+} 
+
+.one{
+    /* float: left; */
+    transform: rotate(7deg);
+}
+
+.two{
+    /* float: left; */
+    transform: rotate(-8deg);
+}
