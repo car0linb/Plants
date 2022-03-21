@@ -109,6 +109,10 @@
     object-fit: fill;
 }
 
+.polaroids{
+    display: flex;
+    justify-content: center;
+}
 
 .polaroid{
     max-width: 400px;
