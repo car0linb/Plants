@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6{
 /* NAVBAR */
 
 .navbar {
-    background-color: rgb(192, 192, 158) !important;
+    background-color: #778a35 !important;
   }
   
   .nav-link {
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6{
   }
   
   .nav-link:hover {
-    color: #778a35 !important;
+    color: #FAE6D0 !important;
   }
   
   li {
