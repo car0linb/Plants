@@ -17,39 +17,65 @@
     ></script>   
 </head>
 <body>
-    <header>
-      <div class="logo">
-        <img src="../Plants/Images/logo.svg" alt="logo">
+  <header>
+    <div class="logo">
+      <img src="Images/logo.svg" alt="logo" />
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Plants</a> -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item text-uppercase">
+              <a class="nav-link" aria-current="page" href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-uppercase" href="shop.html"
+                >Shop</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="about.html"
+                >About us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
       </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <!-- <a class="navbar-brand" href="#">Plants</a> -->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Pages/shop.html">Shop</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Pages/about.html">About us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Pages/contact.html">Contact</a>
-                  </li>
-                </ul> 
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </header>
+    </nav>
+  </header>
+
+  <!-- END OF NAVBAR -->
     <!--start main-->
     <main>
       <section class="mainfirst">
@@ -168,35 +194,37 @@
     <footer class="pt-2 footer-color">
       <div class="container text-white text-center py-4">
         <div class="col text-center">
-          <a href="../index.html"><img
-            src="/Images/logo-flower.svg"
-            alt=""
-            height="40px"
-            width="40px"
-            class="img-flower"
+          <a href="../index.html"
+            ><img
+              src="Images/logo-flower.svg"
+              alt=""
+              height="40px"
+              width="40px"
+              class="img-flower"
           /></a>
           <p class="lead text-uppercase pt-3">
             join our newsletter for uppdates and offers
           </p>
-          <div class="row justify-content-center pb-3">
-            <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
               <form action="" class="form-inline text-center">
-                
                 <div class="input-group">
                   <input
-                    type="text"
+                    type="email"
                     class="form-control"
-                    placeholder="Your email"
-                    id="footer-email"
+                    placeholder="Enter your email"
                   />
-                  <div class="input-group-append">
-                    <button class="btn btn-info">Join know</button>
-                  </div>
+                  <span class="input-group-btn">
+                    <button class="btn btn-outline-dark" type="submit">
+                      Subscribe Now
+                    </button>
+                  </span>
                 </div>
               </form>
             </div>
           </div>
-  
+
           <div class="py-3">
             <a href="#"
               ><i class="fa-brands fa-facebook fa-2x text-dark mx-3"></i
@@ -215,7 +243,7 @@
         </div>
       </div>
     </footer>
-  
+
     <section id="footer" class="">
       <ul
         class="nav text-center justify-content-center flex-column flex-md-row col py-md-3"
@@ -234,6 +262,9 @@
         </li>
       </ul>
     </section>
+
+    <!-- end of footer -->
+
   
     <!-- JavaScript Bundle with Popper -->
     <script
