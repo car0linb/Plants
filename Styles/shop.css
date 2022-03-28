@@ -139,6 +139,10 @@ h1, h2, h3, h4, h5, h6{
     transform: rotate(-8deg);
 }
 
+.care{
+    background-color: #d1e2c4;
+}
+
 
 .care__products{
     display: flex;
@@ -177,17 +181,19 @@ h1, h2, h3, h4, h5, h6{
     color: rgb(42, 75, 11) !important;
   }
   
+  /* FOOTER */
+
   .text-footer {
     font-size: 22px !important;
     font-weight: bold;
   }
   
   .footer-color {
-    background-color: rgb(192, 192, 158);
+    background-color: #778a35;
   }
   
   #footer {
-    background-color: #758250 !important;
+    background-color: #d1e2c4 !important;
   }
   
   
