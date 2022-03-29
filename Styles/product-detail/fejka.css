@@ -12,7 +12,7 @@
 .welcome{
     
     min-height: 50vh;
-    background-image: url(../Grupparbete-plants/images/welcome.webp);
+    background-image: url(../Images/welcome.webp);
     background-size: cover;
     background-repeat: no-repeat;
     color: wheat;
@@ -30,6 +30,9 @@
     border-radius: 15px 15px 0px 0px;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: "Aleo", serif;
+} 
 
 
 .button, .btn{
@@ -160,4 +163,19 @@
     grid-row: 2/10;
   }
 
+  .text-footer {
+    font-size: 22px !important;
+    font-weight: bold;
+  }
   
+  .footer-color {
+    background-color: #778a35 !important;
+  }
+  
+  #footer {
+    background-color: #d1e2c4 !important;
+  }
+  
+  .fa-brands:hover {
+    color: #fae6d0 !important;
+  }
